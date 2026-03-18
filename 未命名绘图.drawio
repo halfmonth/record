@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.3" pages="5">
   <diagram name="环境准备" id="GUTS2u0bTDLrnfEqOWLv">
     <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -65,8 +65,8 @@
         </mxCell>
         <mxCell id="4is4kwW4YYyORcMc-igX-14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="90" y="240" as="sourcePoint" />
-            <mxPoint x="1130" y="240" as="targetPoint" />
+            <mxPoint x="90" y="230" as="sourcePoint" />
+            <mxPoint x="1130" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tr55bbXfzL1aNkbQF1NY-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;AI-IS&lt;/font&gt;" vertex="1">
@@ -74,6 +74,27 @@
         </mxCell>
         <mxCell id="Tr55bbXfzL1aNkbQF1NY-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;After&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="800" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf16vtmRkDjMdW5FKBJ-5" edge="1" parent="1" source="pIf16vtmRkDjMdW5FKBJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pIf16vtmRkDjMdW5FKBJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf16vtmRkDjMdW5FKBJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="需求分解" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf16vtmRkDjMdW5FKBJ-6" edge="1" parent="1" source="pIf16vtmRkDjMdW5FKBJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pIf16vtmRkDjMdW5FKBJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf16vtmRkDjMdW5FKBJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="方案设计" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf16vtmRkDjMdW5FKBJ-7" edge="1" parent="1" source="pIf16vtmRkDjMdW5FKBJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pIf16vtmRkDjMdW5FKBJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf16vtmRkDjMdW5FKBJ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UI绘制" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf16vtmRkDjMdW5FKBJ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="编写代码" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -94,9 +115,6 @@
         </mxCell>
         <mxCell id="MV3s-ebjsszIssffaGtf-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="熟悉SDK Sensor代码框架" vertex="1">
           <mxGeometry height="60" width="120" x="220" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="MV3s-ebjsszIssffaGtf-7" parent="1" style="text;whiteSpace=wrap;html=1;" value="提供数据手册、序列文件和参考驱动 → AI分析两款sensor差异并生成全部代码 → 编译烧录&#xa;上板验证 → AI根据图像效果调整参数 → 重新验证" vertex="1">
-          <mxGeometry height="50" width="320" x="770" y="475" as="geometry" />
         </mxCell>
         <mxCell id="MV3s-ebjsszIssffaGtf-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -125,8 +143,8 @@
         <mxCell id="MV3s-ebjsszIssffaGtf-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="3A效果调试" vertex="1">
           <mxGeometry height="60" width="120" x="230" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="MV3s-ebjsszIssffaGtf-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="耗时：2~3天" vertex="1">
-          <mxGeometry height="30" width="180" x="270" y="590" as="geometry" />
+        <mxCell id="MV3s-ebjsszIssffaGtf-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;耗时：2~3天&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="230" y="610" as="geometry" />
         </mxCell>
         <mxCell id="MV3s-ebjsszIssffaGtf-23" edge="1" parent="1" source="MV3s-ebjsszIssffaGtf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="MV3s-ebjsszIssffaGtf-22">
           <mxGeometry relative="1" as="geometry" />
@@ -166,6 +184,94 @@
         </mxCell>
         <mxCell id="MV3s-ebjsszIssffaGtf-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="人工确认" vertex="1">
           <mxGeometry height="60" width="120" x="890" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MV3s-ebjsszIssffaGtf-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;耗时：2~3小时&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="770" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="r5dAzuITpalOaSMDvAiG" name="屏幕适配">
+    <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RqcUYCw-ow2X9_C-1BLV" name="UT用例开发">
+    <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-6" edge="1" parent="1" source="n8lnymSYVrDR7BvZTGRb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=18;" target="n8lnymSYVrDR7BvZTGRb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" value="Skill触发&lt;div&gt;“帮我写UT”&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="160" x="640" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-7" edge="1" parent="1" source="n8lnymSYVrDR7BvZTGRb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=18;" target="n8lnymSYVrDR7BvZTGRb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" value="分析源码&lt;div&gt;函数分类A/B/C&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="960" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-8" edge="1" parent="1" source="n8lnymSYVrDR7BvZTGRb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=18;" target="n8lnymSYVrDR7BvZTGRb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" value="Mock+生成桩层+测试代码" vertex="1">
+          <mxGeometry height="110" width="160" x="960" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" value="编译运行&lt;div&gt;自验证通过&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="640" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="630" as="sourcePoint" />
+            <mxPoint x="560" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-15" edge="1" parent="1" source="n8lnymSYVrDR7BvZTGRb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=18;" target="n8lnymSYVrDR7BvZTGRb-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" value="&lt;span style=&quot;font-family: &amp;quot;Noto Sans SC&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;理解需求&lt;/span&gt;" vertex="1">
+          <mxGeometry height="105" width="160" x="40" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-17" edge="1" parent="1" source="n8lnymSYVrDR7BvZTGRb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=18;" target="n8lnymSYVrDR7BvZTGRb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" value="&lt;span style=&quot;font-family: &amp;quot;Noto Sans SC&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;分析边界&lt;font&gt;/&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Noto Sans SC&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;错误路径/枚举遍历&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="360" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-19" edge="1" parent="1" source="n8lnymSYVrDR7BvZTGRb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=18;" target="n8lnymSYVrDR7BvZTGRb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" value="&lt;span style=&quot;font-family: &amp;quot;Noto Sans SC&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;写代码&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="360" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" value="&lt;span style=&quot;font-family: &amp;quot;Noto Sans SC&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;调试/&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Noto Sans SC&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;维护&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="40" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;font&gt;AI-IS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="After" vertex="1">
+          <mxGeometry height="30" width="60" x="810" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(239, 68, 68); font-family: &amp;quot;JetBrains Mono&amp;quot;; font-size: 36px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 900; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(239, 68, 68, 0.08); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1 天 = 20 个&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="240" x="150" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-25" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(16, 185, 129); font-family: &amp;quot;JetBrains Mono&amp;quot;; font-size: 36px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 900; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(16, 185, 129, 0.08); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1 小时 = 50+ 个&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="310" x="720" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="n8lnymSYVrDR7BvZTGRb-26" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h3 style=&quot;margin: 0px 0px 12px; padding: 0px; box-sizing: border-box; font-size: 20px; font-weight: 700; font-family: &amp;quot;Noto Sans SC&amp;quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(4, 128, 251), rgb(23, 27, 30));&quot;&gt;1 天 vs 1 小时&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="505" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="oLrh4EpF-jX6OngHWnrR-5" edge="1" parent="1" source="oLrh4EpF-jX6OngHWnrR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="n8lnymSYVrDR7BvZTGRb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLrh4EpF-jX6OngHWnrR-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Noto Sans SC, sans-serif&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;人工审核&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="815" y="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
