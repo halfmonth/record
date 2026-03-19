@@ -327,7 +327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="r5dAzuITpalOaSMDvAiG" name="屏幕适配">
-    <mxGraphModel dx="2026" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1197" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -409,7 +409,7 @@
         <mxCell id="L8dycPtlBXuZqOZ8Jg1e-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;font&gt;耗时目标：0.5天（skill优化中）&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="270" x="767" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="stT92cphMiSlZKXsu7JB-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b style=&quot;&quot;&gt;AI辅助sensor适配&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="stT92cphMiSlZKXsu7JB-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b style=&quot;&quot;&gt;AI辅助屏幕适配&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="268" x="470" y="90" as="geometry" />
         </mxCell>
       </root>
@@ -442,7 +442,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RqcUYCw-ow2X9_C-1BLV" name="UT用例开发">
-    <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1197" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -530,8 +530,8 @@
         <mxCell id="unrEiKPNrD50Kh5umRMT-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;理解需求 + 分析边界/错误路径/枚举遍历：~2-4小时/文件&lt;/span&gt;&lt;div&gt;手写 mock 桩层 + 测试代码：~4-8小时/文件&lt;/div&gt;&lt;div&gt;调试编译/维护：~2-4小时&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="430" x="45" y="509" as="geometry" />
         </mxCell>
-        <mxCell id="unrEiKPNrD50Kh5umRMT-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;font&gt;AI开发UT用例&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="525" y="10" as="geometry" />
+        <mxCell id="unrEiKPNrD50Kh5umRMT-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;AI开发UT用例&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="265" x="470" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
