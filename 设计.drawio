@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0">
   <diagram name="第 1 页" id="VuVTl0hZw4hUPiH4ac5q">
-    <mxGraphModel>
+    <mxGraphModel dx="766" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rDAolBBfy46rNGjJRshy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="130" width="320" x="200" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-8" edge="1" parent="1" source="rDAolBBfy46rNGjJRshy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="rDAolBBfy46rNGjJRshy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="sdk" vertex="1">
+          <mxGeometry height="60" width="160" x="210" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="3rd&amp;nbsp; audio" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="aiot_audio" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-15" edge="1" parent="1" source="rDAolBBfy46rNGjJRshy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rDAolBBfy46rNGjJRshy-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="230" />
+              <mxPoint x="285" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="aiot_sample_common" vertex="1">
+          <mxGeometry height="35" width="290" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="aiot_sample_audio_xxx" vertex="1">
+          <mxGeometry height="40" width="130" x="220" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-20" edge="1" parent="1" source="rDAolBBfy46rNGjJRshy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="rDAolBBfy46rNGjJRshy-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="370" />
+              <mxPoint x="160" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="hi_ai" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-9" edge="1" parent="1" source="rDAolBBfy46rNGjJRshy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="rDAolBBfy46rNGjJRshy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-13" edge="1" parent="1" source="rDAolBBfy46rNGjJRshy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="274" />
+            </Array>
+            <mxPoint x="430" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-14" edge="1" parent="1" source="rDAolBBfy46rNGjJRshy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.171;entryY=0.939;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="rDAolBBfy46rNGjJRshy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAolBBfy46rNGjJRshy-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="云端大模型：火山、阿里" vertex="1">
+          <mxGeometry height="40" width="220" x="260" y="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
